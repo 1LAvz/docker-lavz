@@ -2,7 +2,7 @@
 Things I found useful
 
 # Commands
-Execute docker-compose.yaml file: **docker compose up -d**
+Execute docker-compose.yaml file: **docker compose up -d**   
 Stops all running containers cli: **docker stop $(docker ps -q)**
 
 # Interesting reading:
