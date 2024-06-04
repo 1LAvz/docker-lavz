@@ -1,7 +1,7 @@
 # docker-lavz
 Things I found useful
 
-# Comandos
+# Commands
 Execute docker-compose.yaml file: **docker compose up -d**
 Stops all running containers cli: **docker stop $(docker ps -q)**
 
