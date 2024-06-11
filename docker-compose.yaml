@@ -2,6 +2,8 @@
 version: '3.8'
 
 services:
+
+  portainer:
     image: portainer/portainer-ce:latest
     container_name: portainer_lavz
     ports:

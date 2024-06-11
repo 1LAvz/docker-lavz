@@ -1,8 +1,14 @@
 # docker-lavz
 Things I found useful
 
+# Must do:
+Install docker   
+Install docker compose   
+After that, you will need to grant access for local user, for that look up to docker official documentation:   
+https://docs.docker.com/guides/
+
 # Commands
-Execute docker-compose.yaml file: **docker compose up -d**   
+Execute docker-compose.yaml file: **docker compose up -d OR docker-compose up -d**   
 Stops all running containers cli: **docker stop $(docker ps -q)**
 
 # Interesting reading:
