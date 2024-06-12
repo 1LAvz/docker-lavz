@@ -59,6 +59,10 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql 
+    #if there is a problem to create new dabase, you may need to log-in as root "mysql -u root -p" and then grant privileges:
+    #GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%';
+    #FLUSH PRIVILEGES;
+
 
   oracle:
     image: container-registry.oracle.com/database/free:latest
